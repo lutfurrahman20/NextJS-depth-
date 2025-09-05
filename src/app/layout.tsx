@@ -31,15 +31,13 @@ export default function RootLayout({
         >
           <h1 style={{ fontSize: "24px", fontWeight: "bold" }}>My Website</h1>
           <nav style={{ display: "flex", gap: "16px" }}>
-            <Link href="/" style={{ color: "white", textDecoration: "none" }}>
+            <Link href="/" style={{ color: "white", marginRight: "16px"  }}>
               Home
             </Link>
             <Link href="/about" style={{ color: "white", textDecoration: "none" }}>
               About
             </Link>
-            <Link href="/contact" style={{ color: "white", textDecoration: "none" }}>
-              Contact
-            </Link>
+            <Link href="/dashboard" style={{ color: "white", marginLeft: "16px" }}>Dashboard</Link>
             
           </nav>
         </header>
